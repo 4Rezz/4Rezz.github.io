@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Зброя України</title>
+	<style>
+		.container{
+			width: 1200px;
+			padding: 0 15px;
+			margin: 0 auto;
+		}
+		.header-top {
+			font-size: 30px;
+			margin-top: 30px;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			padding: 25px 55px;
+			border-radius:10px;
+			text-align:center;
+		}
+		* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f2f2f2;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+}
+nav {
+  display: relative;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  padding: 5px;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 180px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding:10px;
+float:left;
+color:black;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #404040;
+  float:center;
+  padding: 10px 30px;
+text-align: center;
+}
+.topmenu li a:hover { color: gray;  }
+.submenu {
+  background: #D5B45B;
+  position: absolute;
+  left: 15px;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.global{
+			font-size: 20px;
+			background: #fff;
+			justify-content: center;
+			padding: 25px 55px;
+      float:center;
+		}
+		.global h1{
+			width: 250px;
+      font-size:50px;
+		}
+		.navigation{
+			font-size: 20px;
+			background: #fff;
+			padding: 25px 55px;
+			text-align: center;
+		}
+
+		.s1{
+			margin-top: 30px;
+		}
+		.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+	</style>
+</head>
+<body>
+	<header>
+	<div class="container">
+<div class="header-top">
+	<a href="index.html" class="logo">GU</a>
+	<nav>
+      <ul class="topmenu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="" class="submenu-link">Озброєння</a>
+          <ul class="submenu">
+            <li><a href="gun.html">Автомати</a></li>
+            <li><a href="mashin.html">Техніка</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="new.html">Нове</a></li>
+      </ul>
+    </nav>
+	</div>
+	</div>
+</header>
+<section class="s1">
+	<div class="container">
+		<div class="global" style="text-align:center;">
+      <p style="font-size:100px">ВІТАЮ ВАС НА СВОМУ САЙТІ!</p>
+ </section>
+ <section class="s1">
+	<footer>
+		<div class="container">
+		<div class="global" style="text-align:center;">
+							<p style="color:gray">Копірайт (c) 2021 Компані. Всі права захищені.</p>
+     	</div>
+     </div>
+    </footer>
+  </section>
+</body>
+</html>

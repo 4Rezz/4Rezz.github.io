@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <title>Зброя України</title>
+  <style>
+ .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    .container{
+      width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+    .header-top {
+      font-size: 30px;
+      margin-top: 30px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 25px 55px;
+      border-radius:10px;
+      text-align:center;
+    }
+    .text{
+      color:black;
+      position: absolute;
+      left:0;
+      bottom: 0;
+      padding:20px;
+      background:rgba(0,0,0,0.6);
+      margin:0;
+    }
+    * { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+}
+nav {
+  display: relative;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  padding: 5px;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 180px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding:10px;
+float:left;
+color:black;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #404040;
+  float:center;
+  padding: 10px 30px;
+text-align: center;
+}
+.topmenu li a:hover { color: gray;  }
+.submenu {
+  background: #D5B45B;
+  position: absolute;
+  left: 15px;
+  top: 100%;
+  z-index: 5;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 23px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.global{
+      font-size: 20px;
+      background: #fff;
+      justify-content: center;
+      padding: 25px 55px;
+    }
+    .global h1{
+      width: 250px;
+    }
+    .navigation{
+      font-size: 20px;
+      background: #fff;
+      padding: 25px 55px;
+      text-align: center;
+    }
+
+    .s1{
+      margin-top: 30px;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 400px;
+    }
+    .wrap {
+      position: relative;
+    }
+    .text {
+      width: 100%;
+      color: #fff;
+      background: rgba(0,0,0,0.8);
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <div class="container">
+<div class="header-top">
+  <a href="logo.html" class="logo">GU</a>
+  <nav>
+      <ul class="topmenu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="" class="submenu-link">Озброєння</a>
+          <ul class="submenu">
+            <li><a href="gun.html">Автомати</a></li>
+            <li><a href="mashin.html">Техніка</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="new.html">Нове</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+</header>
+<section class="s1">
+  <div class="container">
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="text">Вулкан-М (Малюк)</div>
+          <div class="image"><img src="Maluk.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">КМ-7.62</div>
+          <div class="image"><img src="km-7-62-3-big.png" alt=""></div>
+        </div>
+         <div class="swiper-slide">
+          <div class="text">КТ-12,7</div>
+          <div class="image"><img src="kt.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">Гопак</div>
+          <div class="image"><img src="gopak.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">М4-WAC-47</div>
+          <div class="image"><img src="M4_WAC-47.jpg" alt=""></div>
+        </div>
+         <div class="swiper-slide">
+          <div class="text">Вепр</div>
+          <div class="image"><img src="VEPR.jpg" alt=""></div>
+        </div>
+         <div class="swiper-slide">
+          <div class="text">Танк - "Т-64БМ - Булат"</div>
+          <div class="image"><img src="булат.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">Танк - "Т-84У - Оплот"</div>
+          <div class="image"><img src="oplot.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">Танк - "Т-84-120 - Ятаган"</div>
+          <div class="image"><img src="yanagan.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">Артилерія - "Тайфун-1"</div>
+          <div class="image"><img src="e6eab6bdbf4c4c09ba2785f737d93bb3.jpg" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="text">Артилерія - "Упік-82"</div>
+          <div class="image"><img src="ypik.jpg" alt=""></div>
+        </div>
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+      });
+    </script>
+ <section class="s1">
+  <footer>
+    <div class="container">
+    <div class="global" style="text-align:center;">
+              <p style="color:gray">Копірайт (c) 2021 Компані. Всі права захищені.</p>
+      </div>
+     </div>
+    </footer>
+  </section>
+</body>
+</html>

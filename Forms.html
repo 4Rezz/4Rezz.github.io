@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script>
+        <!--
+        function Complete()
+        {
+            var Elem="Email: " + document.Sel1.Family.value +
+                "\nІм'я: " + document.Sel1.Name.value +
+                "\nСтать:"+document.Sel1.sex.value+
+                "\nВік: " + document.Sel1.Age.value +
+                "\nТелефон: " + document.Sel1.Phone.value;
+            alert(Elem);
+        }
+        function CheckAge(age)
+        {
+            if(age<18)
+                return "18";
+            else
+                return  age;
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+<H1>Заповніть анкету</H1>
+<FORM NAME="Sel1">
+
+    <TABLE style="color:gray;">
+        <TR><TD><B>Email:<B></TD>
+            <TD><INPUT NAME="Family" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>Ім'я<B></TD>
+            <TD><INPUT NAME="Name" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+                   <TR><TD><B>Стать<B></TD>
+            <TD><INPUT NAME="sex" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>Вік<B></TD>
+            <TD><INPUT NAME="Age" SIZE=3
+                  onBlur="this.value=CheckAge(this.value)"
+                  onFocus="this.select()"></TD></TR>
+        <TR><TD><B>Телефон:<B></TD>
+            <TD><INPUT NAME="Phone" SIZE=10></TD></TR>
+    </TABLE>
+
+    <INPUT TYPE="button" VALUE="Готово" onClick="Complete();">
+    <INPUT TYPE="reset" VALUE="Скинути">
+</div>
+</FORM>
+</body>
+</html>
